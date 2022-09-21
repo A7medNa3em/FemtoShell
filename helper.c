@@ -45,7 +45,6 @@ int* fib(int num)
 			farr[i]=farr[i-1]+farr[i-2];
 		
 		}
-
 	
 	}
 

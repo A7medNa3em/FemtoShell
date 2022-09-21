@@ -10,6 +10,4 @@
 int fact(int num);
 int* fib(int num);
 
-
-
 #endif
