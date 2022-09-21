@@ -47,7 +47,7 @@ int main (void)
 	         /* rand input --> printed print random number */
 		else if (strcmp(str,"rand")==0)
 		{
-			printf("%d",rand());
+			printf("%d\n",rand());
 		
 		}
 		  /* fact input --> print factorial of number */
@@ -55,16 +55,19 @@ int main (void)
                 {
 			printf("\tEnter number: ");
 			scanf("%d",&n);
-                        /*call fact function*/
+			fflush(stdin);
+			/*call fact function*/
 	
 			printf("\tReslut: %d \n",fact(n));
                 }
+
 
 		  /* fib input --> print fibonacci sequence */
                 else if (strcmp(str,"fib")==0)
                 {
                        printf("\tEnter number: ");
                        scanf("%d",&n);
+		       fflush(stdin);
                         /*call fib function*/
 		      fr=  fib(n);
 
