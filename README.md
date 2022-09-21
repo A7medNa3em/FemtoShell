@@ -10,4 +10,6 @@
 ![image](https://user-images.githubusercontent.com/67152047/191567650-c9d368f2-7b45-4bd8-8714-65f3c315ee92.png)
 
 
-
+## makefile is added
+beside make all  need to to define LIB=libhelpf.so --> for dnamic lib
+                                Or LIB=libhelper.a --> for static lib 
